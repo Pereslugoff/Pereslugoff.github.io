@@ -1,19 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
+import NavBar from './NavBar'
 
 require('normalize.css/normalize.css');
 require('../styles/App.css');
 
-let appImage = require('../images/app-icon.png');
 
-class AppComponent extends React.Component {
-  render() {
+const AppComponent = () => {
     return (
       <div className="index">
-        <img src={appImage} alt="App Icon" />
-        <div className="notice">Please edit <code>src/components/Main.js</code> to get started!</div>
+        <NavBar />
       </div>
     );
-  }
 }
 
 AppComponent.defaultProps = {

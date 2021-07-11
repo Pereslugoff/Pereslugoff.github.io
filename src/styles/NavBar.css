@@ -1,0 +1,89 @@
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 76px;
+  justify-content: space-between;
+  height: 7rem;
+}
+
+.navBar .navMenu {
+  font-size: 1.6rem;
+}
+
+.navBar .navLink {
+  font-weight: bold;
+}
+
+.navBar .navSignUp {
+  color: #482a90;
+  background-color: #fff;
+  padding-left: 17px;
+  padding-right: 17px;
+  height: 33px;
+  font-size: 14px;
+  letter-spacing: -.35px;
+  line-height: 17px;
+  border-radius: 6px;
+  transition: all .3s;
+}
+
+.navBar .navSignUp:hover {
+  background-color: #482a90;
+  color: #fff;
+}
+
+.navBar .navHamburger {
+  width: 36px;
+  height: 27px;
+}
+
+.navBar .navHamburger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  border-radius: 1px;
+  opacity: 1;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 655px) {
+  .navLink {
+      height: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .navBar {
+    max-width: 748px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .navHamburger {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navBar {
+    max-width: 1180px;
+  }
+}
+
+@media (max-width: 654px) {
+  .navLink {
+      display: none;
+  }
+  .navSignUp {
+    height: 40px;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -.4px;
+  }
+}

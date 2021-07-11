@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.0",
-  "description": "YOUR DESCRIPTION HERE...",
+  "description": "Mr. Beast Promotion Signup",
   "main": "",
   "scripts": {
     "start": "react-scripts start",
@@ -11,8 +11,9 @@
   },
   "repository": "",
   "keywords": [],
-  "author": "YOUR NAME HERE...",
+  "author": "Nick Pereslugoff",
   "dependencies": {
+    "core-js": "^2.6.5",
     "normalize.css": "^8.0.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
