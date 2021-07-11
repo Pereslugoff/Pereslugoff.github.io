@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
+import ApplyForm from './ApplyForm';
 import NavBar from './NavBar'
 
 require('normalize.css/normalize.css');
-require('../styles/App.css');
+require('../styles/Main.css');
 
 
 const AppComponent = () => {
     return (
-      <div className="index">
+      <div className="mainContainer">
         <NavBar />
+        <ApplyForm />
       </div>
     );
 }

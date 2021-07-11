@@ -1,0 +1,146 @@
+.applyFormContainer {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.applyNowChatBox {
+  width: 350px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.applyFormMrBeastHead {
+  height: 100%;
+}
+
+.applyNowImg {
+  height: 100%;
+  width: 100%;
+}
+
+.applyNowBubbleText {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #482a90;
+  max-width: 235px;
+  animation: moveInRight .5s ease-in;
+}
+
+.applyNowBubbleErrorTextContainer {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+
+.applyNowBubbleErrorText {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #482a90;
+  max-width: 235px;
+  animation: slamDown .5s ease-in;
+}
+
+.applyFormChatBubbleContainer {
+  width: 250px;
+}
+
+.applyForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.applyForm label {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.applyForm input,
+.applyForm select {
+  border: 1.2px solid #dcdcee;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+  width: 249px;
+  height: 33px;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 7px 10px;
+}
+
+.applyFormSubmitLine {
+  display: flex;
+}
+
+.applyFormSubmit{
+  background-color: #82e3ff;
+  color: #482a90;
+  margin-left: 2rem;
+  padding-left: 17px;
+  padding-right: 17px;
+  height: 33px;
+  font-size: 14px;
+  letter-spacing: -.35px;
+  line-height: 17px;
+  border-radius: 6px;
+  transition: all .3s;
+}
+
+.applyFormSubmit:hover {
+  color: #482a90;
+  background-color: #fff;
+}
+
+@media (min-width: 655px) {
+  applyForm {
+    width: 475px;
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+      opacity: 0;
+      transform: translateX(10rem);
+  }
+
+  80% {
+      transform: translateX(-1rem);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+
+@keyframes slamDown {
+  0%
+  {
+    transform: scale(10, 10);
+    opacity: 0;
+  }
+  
+  50%
+  {
+    opacity: 0;
+  }
+  
+  100%
+  {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
