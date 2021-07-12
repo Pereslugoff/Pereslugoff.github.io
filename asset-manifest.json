@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.69977edb.chunk.css",
-    "main.js": "/static/js/main.cb23d4b4.chunk.js",
-    "main.js.map": "/static/js/main.cb23d4b4.chunk.js.map",
+    "main.css": "/static/css/main.04641931.chunk.css",
+    "main.js": "/static/js/main.f5c658a0.chunk.js",
+    "main.js.map": "/static/js/main.f5c658a0.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.3d204cac.js",
     "runtime~main.js.map": "/static/js/runtime~main.3d204cac.js.map",
     "static/css/2.764ccc25.chunk.css": "/static/css/2.764ccc25.chunk.css",
-    "static/js/2.04a81f8f.chunk.js": "/static/js/2.04a81f8f.chunk.js",
-    "static/js/2.04a81f8f.chunk.js.map": "/static/js/2.04a81f8f.chunk.js.map",
+    "static/js/2.5d2251ec.chunk.js": "/static/js/2.5d2251ec.chunk.js",
+    "static/js/2.5d2251ec.chunk.js.map": "/static/js/2.5d2251ec.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9eec8e1a6a54bc38e33dc984694cc4a8.js": "/precache-manifest.9eec8e1a6a54bc38e33dc984694cc4a8.js",
+    "precache-manifest.11ea0d37dc5004eb86bf9710c6bd9c8e.js": "/precache-manifest.11ea0d37dc5004eb86bf9710c6bd9c8e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.69977edb.chunk.css.map": "/static/css/main.69977edb.chunk.css.map",
+    "static/css/main.04641931.chunk.css.map": "/static/css/main.04641931.chunk.css.map",
     "static/media/beast-circle-text-d9b6f5e9191ab2358f498f8b25dcfe69.svg": "/static/media/beast-circle-text-d9b6f5e9191ab2358f498f8b25dcfe69.99bba942.svg",
     "static/media/chat-bubble.svg": "/static/media/chat-bubble.571e48b8.svg",
     "static/media/current-logo-indigo-2.svg": "/static/media/current-logo-indigo-2.69954b67.svg",
-    "static/media/mr-beast-head.png": "/static/media/mr-beast-head.71ebbce7.png"
+    "static/media/mr-beast-head.png": "/static/media/mr-beast-head.71ebbce7.png",
+    "static/media/mr-beast-surprised.png": "/static/media/mr-beast-surprised.844558c0.png"
   }
 }
