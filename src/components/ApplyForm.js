@@ -74,7 +74,7 @@ const ApplyForm = () => {
 
   return (
     <section className="applyFormContainer">
-      <div className="applyNowChatBox">
+      <div className="applyFormChatBox">
         <img 
             src={mrBeastHead} alt="Mr. Beast" 
             className="applyFormMrBeastHead"
@@ -83,9 +83,9 @@ const ApplyForm = () => {
           <img 
             src={chatBubble} 
             alt="Chat Bubble" 
-            className="applyNowImg"
+            className="applyFormChatBubble"
           />
-          { !isError && <p className="applyNowBubbleText" key={`${chatBubbleMessage}Message`}>{chatBubbleMessage}</p> }
+          { !isError && <p className="applyFormBubbleText" key={`${chatBubbleMessage}Message`}>{chatBubbleMessage}</p> }
           { isError && <ErrorMessage chatBubbleErrorMessages={chatBubbleErrorMessages}/> }
         </div>
       </div>

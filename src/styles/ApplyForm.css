@@ -6,9 +6,9 @@
   margin-top: 5rem;
 }
 
-.applyNowChatBox {
-  width: 350px;
-  height: 150px;
+.applyFormChatBox {
+  width: 35rem;
+  height: 15rem;
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -16,24 +16,25 @@
   position: relative;
 }
 
-.applyFormMrBeastHead {
+.applyFormMrBeastHead,
+.applyFormChatBubble {
   height: 100%;
 }
 
-.applyNowImg {
-  height: 100%;
+.applyFormMrBeastHead {
+  transition: transform 1s ease-in;
+}
+
+.applyFormMrBeastHead:hover {
+  transform: rotate(360deg);
+}
+
+.applyFormChatBubble {
   width: 100%;
 }
 
-.applyNowBubbleText {
-  position: absolute;
-  top: 25%;
-  left: 35%;
-  font-size: 3rem;
-  font-weight: bold;
-  color: #482a90;
-  max-width: 235px;
-  animation: moveInRight .5s ease-in;
+.applyFormChatBubbleContainer {
+  width: 250rem;
 }
 
 .applyNowBubbleErrorTextContainer {
@@ -42,16 +43,24 @@
   left: 35%;
 }
 
+.applyFormBubbleText,
 .applyNowBubbleErrorText {
-  font-size: 1.5rem;
   font-weight: bold;
   color: #482a90;
-  max-width: 235px;
-  animation: slamDown .5s ease-in;
+  max-width: 23.5rem;
 }
 
-.applyFormChatBubbleContainer {
-  width: 250px;
+.applyFormBubbleText {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  font-size: 3rem;
+  animation: moveInRight .5s ease-in;
+}
+
+.applyNowBubbleErrorText {
+  font-size: 1.5rem;
+  animation: slamDown .5s ease-in;
 }
 
 .applyForm {
@@ -70,25 +79,25 @@
 }
 
 .applyForm input,
-.applyForm select {
+.applyForm select,
+.applyForm textarea {
   border: 1.2px solid #dcdcee;
-  border-radius: 6px;
+  border-radius: .6rem;
   margin-bottom: 2rem;
-  width: 249px;
-  height: 33px;
-  font-size: 14px;
-  line-height: 18px;
-  padding: 7px 10px;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding: .7rem 1rem;
+  width: 25rem;
+}
+
+.applyForm input,
+.applyForm select {
+  height: 3.3rem;
 }
 
 .applyForm textarea {
-  border: 1.2px solid #dcdcee;
-  border-radius: 6px;
-  margin-bottom: 2rem;
-  font-size: 14px;
-  width: 249px;
-  height: 100px;
-  padding: 7px 10px;
+  width: 25rem;
+  height: 10rem;
 }
 
 .applyFormSubmitLine {
@@ -100,14 +109,13 @@
   background-color: #82e3ff;
   color: #482a90;
   margin-left: 2rem;
-  padding-left: 17px;
-  padding-right: 17px;
-  height: 33px;
-  font-size: 14px;
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+  height: 3.3rem;
+  font-size: 1.4rem;
   letter-spacing: -.35px;
-  line-height: 17px;
-  border-radius: 6px;
-  transition: all .3s;
+  line-height: 1.7rem;
+  border-radius: .6rem;
 }
 
 .applyFormSubmit {
@@ -126,9 +134,55 @@
   background-color: #fff;
 }
 
+
+@media (max-width: 655px) {
+  .applyFormSubmitLine {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .applyForm label {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+
+  .applyFormSubmit,
+  .applyFormSubmitDisabled{
+    width: 25rem;
+    margin-left: 0;
+  }
+}
+
 @media (min-width: 655px) {
-  applyForm {
-    width: 475px;
+  .applyForm {
+    width: 47.5rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .applyForm input,
+  .applyForm select,
+  .applyForm textarea {
+    width: 30rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .applyFormChatBox {
+    width: 45rem;
+    height: 22.5rem
+  }
+
+  .applyFormBubbleText {
+    top: 30%;
+    left: 37.5%;
+  }
+
+  .applyNowBubbleErrorTextContainer {
+    top: 35%;
+    left: 40%;
   }
 }
 

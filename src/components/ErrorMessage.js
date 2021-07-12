@@ -1,6 +1,7 @@
 import React from 'react';
 require('../styles/ApplyForm.css');
 
+
 const ErrorMessage = ({chatBubbleErrorMessages}) => {
   const errorMessages = [];
   for(let errorKey in chatBubbleErrorMessages) {
