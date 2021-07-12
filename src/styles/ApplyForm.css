@@ -81,11 +81,22 @@
   padding: 7px 10px;
 }
 
+.applyForm textarea {
+  border: 1.2px solid #dcdcee;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+  font-size: 14px;
+  width: 249px;
+  height: 100px;
+  padding: 7px 10px;
+}
+
 .applyFormSubmitLine {
   display: flex;
 }
 
-.applyFormSubmit{
+.applyFormSubmit,
+.applyFormSubmitDisabled{
   background-color: #82e3ff;
   color: #482a90;
   margin-left: 2rem;
@@ -97,6 +108,17 @@
   line-height: 17px;
   border-radius: 6px;
   transition: all .3s;
+}
+
+.applyFormSubmit {
+  background-color: #82e3ff;
+  color: #482a90;
+}
+
+.applyFormSubmitDisabled {
+  background-color: #fff;
+  color: red;
+  cursor: not-allowed;
 }
 
 .applyFormSubmit:hover {
