@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="626px" height="214px" viewBox="0 0 626 214" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Fill 1 Copy 3</title>
+    <defs>
+        <radialGradient cx="-1.44387321%" cy="-4.59952601%" fx="-1.44387321%" fy="-4.59952601%" r="300.191505%" gradientTransform="translate(-0.014439,-0.045995),scale(0.341463,1.000000),rotate(15.780546),translate(0.014439,0.045995)" id="radialGradient-1">
+            <stop stop-color="#FF81C5" offset="0%"></stop>
+            <stop stop-color="#7F9FFF" offset="60.7490166%"></stop>
+            <stop stop-color="#6CDFFF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MrBeast---Desktop" transform="translate(-700.000000, -1109.000000)" fill="#FFFFFF" stroke="url(#radialGradient-1)" stroke-width="4">
+            <g id="Group-2" transform="translate(-293.000000, 1099.000000)">
+                <path d="M1032.71075,160.388456 C1032.6252,159.018726 1032.5767,157.640234 1032.5767,156.249692 L1032.5767,77.7503075 C1032.5767,41.5874741 1062.0156,12 1097.99684,12 L1551.57986,12 C1587.56055,12 1617,41.5874741 1617,77.7503075 L1617,156.249692 C1617,192.412526 1587.56055,222 1551.57986,222 L1097.99684,222 C1078.1998,222 1060.38574,213.041169 1048.36365,198.960502 C1030.09458,203.975541 1002,197.701402 1002,197.701402 C1028.42766,191.196145 1032.35492,170.168796 1032.71075,160.388456 Z" id="Fill-1-Copy-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>
